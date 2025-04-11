@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text-to-Image Generation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Text-to-Image Generator</h1>
+        <p>Enter a description below, and watch the magic happen!</p>
+        <textarea id="textInput" placeholder="Enter your text here..." rows="3"></textarea>
+        <button id="generateBtn">Generate Image</button>
+        <div class="output">
+            <p id="loadingMessage" style="display:none;">Generating Image... Please wait!</p>
+            <div class="image-container">
+                <img id="outputImage" src="" alt="Generated Image" style="display:none;">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
